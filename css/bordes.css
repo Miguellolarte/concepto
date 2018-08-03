@@ -3,3 +3,60 @@ h1{
 	font-size: 72px;
 
 }
+p{
+	/*Tamaños de la fuente
+	en 1em = 16px = 34px / 16 = 2.125 em*/
+	font-size: 2.125em;
+	/*tipo de fuente*/
+	font-family: Georgia,serif;
+	/*ancho de la fuente: normal,bold
+	bolder,lightter,1000 a 900, inherit*/
+	font-weight: 900;
+	/*estilo de la fuente normal,italic,oblique*/
+	font-style: oblique;
+	/*Variante de la fuente*/
+	font-variant: small-caps;
+	/*Interlineado de texto*/
+	line-height: 200%;
+	
+
+
+
+
+
+}
+
+
+.par1{
+	border:red thin solid;
+}
+.par2{
+	border:blue medium solid;
+}
+.par3{
+	border:green thick solid;
+}
+.par4{
+	border:purple 20px double;
+}
+.par5{
+	 border:orange 20px dashed;
+}
+.par6{
+	border:yellow 20px groove;
+}
+.par7{
+	border:#24BEC4 20px ridge;
+}
+.par8{
+	border:#8E4040 20px inset;
+}
+.par9{
+	border:#22F507 20px outset;
+}
+.par10{
+	border:#219BBE 20px ridge;
+}
+em{
+	font-weight: bolder;
+}
